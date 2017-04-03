@@ -1,0 +1,29 @@
+#logo {
+max-height: 53px;
+margin-top: -7px;
+margin-right: 5px;
+margin-left: 2px;
+display: inline-table;
+}
+
+#login-icon{
+  max-width:200px;
+}
+
+@media (max-width:991px) {
+  #login-icon{
+    max-width:150px;
+  }
+}
+
+@media (max-width:767px) {
+  #login-icon{
+    max-width:90px;
+    margin-left:-10px;
+  }
+}
+
+#container-block{
+  padding:20px;
+}
+

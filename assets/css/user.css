@@ -1,0 +1,62 @@
+.col-xs-12, #sel1, #sel2, #sel3{
+  padding:1em;
+}
+
+#label{
+  padding:1em;
+}
+
+#para{
+  font-size:2.2em;
+  font-weight:400;
+  line-height:1.5em;
+}
+
+#para2{
+  font-size:2em;
+  font-weight:200;
+  color:#00548E;
+}
+
+#img{
+  max-height:8em;
+  padding-left:30em;
+}
+
+@media (max-width:767px) {
+  #img{
+    display:none;
+  }
+}
+
+@media (max-width:991px) {
+  #img{
+    max-height:8em;
+    padding-left:15em;
+  }
+}
+
+#logo {
+max-height: 53px;
+margin-top: -7px;
+margin-right: 5px;
+margin-left: 2px;
+display: inline-table;
+}
+
+#genbtn{
+  margin-left:9em;
+}
+
+@media (max-width:991px) {
+  #genbtn{
+    margin-left:5em;
+  }
+}
+
+@media (max-width:767px) {
+  #genbtn{
+    margin-left:5em;
+  }
+}
+

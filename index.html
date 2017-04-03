@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C:\Users\koppula\Downloads\fd generator</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-uppercase navbar-link" href="#"><img src="assets/img/logo.jpg" id="logo"> <strong>fd generator</strong></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="#">Help </a></li>
+                    <li role="presentation"><a href="#">About </a></li>
+                    <li role="presentation"><a href="#">Donate </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div></div>
+    <div class="col-sm-6">
+        <h1><strong><span style="text-decoration: underline;">Fake Details</span></strong></h1>
+        <p id="para">Fake details provide you to fill the forms details for temporary access with giving the original details</p><br><br>
+        <p id="para2">To get Complete Details provide few details upon the total details will be Generated</p><br><img src="assets/img/arrow.png" id="img"></div>
+    <form action="jsp/index.jsp" method="post">
+        <div class="col-md-offset-0 col-sm-6">
+            <h4 class="text-center"><span style="text-decoration: underline;">Few Details</span></h4>
+            <div class="row">
+                <div class="col-xs-6" id="label">
+                    <h4 class="text-center">Gender </h4></div>
+                <div class="col-xs-offset-6" id="sel1">
+                    <select name="gendersec" class="form-control input-lg" id="se">
+                        <optgroup label="This is a group">
+                            <option value="male" selected="">male</option>
+                            <option value="female">female</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6" id="label">
+                    <h4 class="text-center">Country </h4></div>
+                <div class="col-xs-offset-6" id="sel1">
+                    <select name="countrysec" class="form-control input-lg" id="se">
+                        <optgroup label="This is a group">
+                            <option value="American" selected="">America</option>
+                            <option value="Arabic">Arab</option>
+                            <option value="Russian">Russia</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6" id="label">
+                    <h4 class="text-center">Age </h4></div>
+                <div class="col-xs-offset-6" id="sel1">
+                    <select name="agesec" class="form-control input-lg" id="se">
+                        <optgroup label="This is a group">
+                            <option value="Random" selected="">Random</option>
+                            <option value="limit1">19years-40years</option>
+                            <option value="limit2">40years-70years</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="btn btn-warning btn-lg" type="submit" id="genbtn">GENERATE </button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
