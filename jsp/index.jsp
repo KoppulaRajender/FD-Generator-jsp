@@ -39,7 +39,7 @@
         Class.forName("com.mysql.jdbc.Driver");
         String url="jdbc:mysql://localhost:3306/fakedb";
         String username="root";
-        String password="Raju@007";
+        String password="password";
         Connection conn=DriverManager.getConnection(url, username, password);
         String query="select * from fakenames where gender='"+gen+"' AND nameset='"+country+"' AND age BETWEEN '"+a+"' AND '"+b+"' ORDER BY RAND() limit 1 ";
         Statement stmt=conn.createStatement();
